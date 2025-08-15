@@ -37,5 +37,18 @@
 
 ### 4.shadowing ()
 - you can declare a new variable with the same name as a previous variable
+- shadowing allows a variable to declare to a diff datatype too eg. (i32 => string)
+- it doesnt mean that they are typecasted , its just that they are both diff variables
+
+### 5. [allow(unused_variables)] 
+- this allows the compiler to use unused variables without throwing a warning
+- this line should be top of the code generally above fn main()
+
+### 6. destructuring()
+- we can use a pattern with `let` to destruct a tuple to separate variables
+- Tips: you can use shadowing or mutability
+
+### 7. destructuring_assignments()
+- Introduced in rust 1.59 version : we can use tuple , slice , and struct patterns as the left-hand side of an assignment
 
 
