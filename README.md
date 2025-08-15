@@ -15,6 +15,7 @@
 `cargo build`  : build and compile
 
 `rustc` : The traditional compiler
+---
 
 ### 1. fn hello_world() :"hello world syntax"
 
@@ -50,5 +51,7 @@
 
 ### 7. destructuring_assignments()
 - Introduced in rust 1.59 version : we can use tuple , slice , and struct patterns as the left-hand side of an assignment
+
+---
 
 
