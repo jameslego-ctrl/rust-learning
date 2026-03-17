@@ -1,3 +1,11 @@
+### shortcut generics vs code 
+
+`shift+option+F` : formatting the code in vs code editor
+
+
+
+
+
 ## Introduction to Rust
 ---
 ## commands
@@ -37,15 +45,17 @@
 
 
 ### 3.string()
+- To declare any variable as string the keyword `&str` should be used e.g   `let x : &str = "i am a string" ;`
 
 ### 4.shadowing ()
 - you can declare a new variable with the same name as a previous variable
 - shadowing allows a variable to declare to a diff datatype too eg. (i32 => string)
 - it doesnt mean that they are typecasted , its just that they are both diff variables
 
-### 5. [allow(unused_variables)] 
+### 5. #[allow(unused_variables)] 
 - this allows the compiler to use unused variables without throwing a warning
 - this line should be top of the code generally above fn main()
+- or `_` can be used before the name of the variable e.g let _x: i32 = 5;
 
 ### 6. destructuring()
 - we can use a pattern with `let` to destruct a tuple to separate variables
