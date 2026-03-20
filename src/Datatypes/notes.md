@@ -33,8 +33,12 @@ We can use any of these variants to declare the type of an integer value.
 - Unsigned variants can store numbers from 0 to 2n − 1, 
 - so a u8 can store numbers from 0 to 28 − 1, which equals 0 to 255.
 
-### Note: 
-    ```bash
-    Additionally, the isize and usize types depend on the architecture of the computer your program is running on: 64 bits if you’re on a 64-bit architecture and 32 bits if you’re on a 32-bit architecture.
+### Note:
+1. Note1
+```bash
+Additionally, the isize and usize types depend on the architecture of the computer your program is running on: 64 bits if you’re on a 64-bit architecture and 32 bits if you’re on a 32-bit architecture.
+2. Note2
+```bash
+cd repo
 
 
