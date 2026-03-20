@@ -9,7 +9,7 @@ A scalar type represents a single value. Rust has four primary scalar types:
 - Booleans, and 
 - characters.
 
-1. **Integers** : signed (i8,i16,i32....)  && unsigned(u8,u16,u32...) : 
+## 1. **Integers** : signed (i8,i16,i32....)  && unsigned(u8,u16,u32...): 
    We can use any of these variants to declare the type of an integer value.
    | Length | signed | unsigned|
    | :--- | :--- | :--- |
